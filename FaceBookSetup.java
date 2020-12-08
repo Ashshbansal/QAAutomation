@@ -14,12 +14,15 @@ import java.util.concurrent.TimeUnit;
 public class FaceBookSetup {
 
     String  DriverKey="webdriver.chrome.driver";
-    String DriverPath="C:\\Users\\ashis\\Downloads\\chromedriver_win32\\chromedriver.exe"; //Mention the Chrome driver path
+    String DriverPath="chromedriver_win32\\chromedriver.exe"; //Mention the Chrome driver path
     WebDriver driver;
     FaceBookLogin objectFaceBookLogin;  //Object for FacebookLogin class
     FaceBookHomePage objectFaceBookHomePage;  // Object for FaceBookHomepage class
-    String Username="Ashishrocks.bansal@gmail.com";
-    String Password="iloveTennis@12";
+    
+    //Please enter your email ID 
+    String Username="dummyuser@gmail.com"; 
+    //Please enter your password
+    String Password="password";
     String status_text="Hello World";
     @BeforeTest
     public void setup(){
