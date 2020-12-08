@@ -46,7 +46,7 @@ public class FaceBookSetup {
         objectFaceBookLogin.enterPassword(Password);
         objectFaceBookLogin.login();
 
-        // if login is successfull then below expression would not throw any error, but if it is not it will raise NosuchElementException
+        // if login is successfull then below expression would raise any exception, but if it is not it will raise NosuchElementException and test case will fail.
         driver.findElement(By.xpath("//div[@role='button' and @aria-label='Account']"));
     }
     // Post Status
