@@ -42,7 +42,7 @@ public class FaceBookSetup {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     // Login to Facebook
-    @Test (priority = 1)
+    @Test 
     public void loginToFacebook(){
         objectFaceBookLogin=new FaceBookLogin(driver);
         objectFaceBookLogin.enterEmailID(Username);
