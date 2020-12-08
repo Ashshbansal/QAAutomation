@@ -6,4 +6,4 @@ FaceBookSetup.java : It is the main file which should be compiled. Username, Pas
 
 FaceBookLogin.java : it contains the functions which are needed for login functionality.
 
-FaceBookHomePage.java : It contains the functions which will be run when the Facebook home page is started.
+FaceBookHomePage.java : It contains the functions which are needed for posting the status on Facebook.
